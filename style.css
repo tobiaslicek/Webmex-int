@@ -59,8 +59,10 @@ svg {
 } */
 
 .aktualizace {
+  padding-bottom: 20px;
   display: flex;
   align-items: center;
+  border-bottom: 1px solid #e8e8e8;
 }
 
 .circular-arrow {
@@ -113,16 +115,22 @@ li {
 }
 
 .card {
-  margin: 12px 10px;
+  margin: 12px 10px 10px;
+  border: none;
 }
 
 .card-header {
   border-radius: 8px 8px 0px 0px;
+  border: none;
   background: #f2f2f2;
   padding: 8px 10px;
   justify-content: space-between;
   align-items: center;
   height: 50px;
+}
+
+#headingOne {
+  margin-top: 15px;
 }
 
 .card-body {
