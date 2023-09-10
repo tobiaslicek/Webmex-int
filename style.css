@@ -57,6 +57,24 @@ svg {
   height: 24px;
   padding: 10px;
 } */
+
+.aktualizace {
+  display: flex;
+  align-items: center;
+}
+
+.circular-arrow {
+  margin: 0 0 8px 23px;
+}
+
+.aktualizace-h {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-left: 10px;
+}
+
 ul {
   margin-left: -2.3rem;
   display: flex;
@@ -75,8 +93,12 @@ ul.custom-list > .li-datum::before {
   position: absolute;
   left: 0;
   color: #ffa800;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1;
+}
+li {
+  font-size: 16px;
+  font-weight: 400;
 }
 
 .li-verze {
@@ -101,4 +123,12 @@ ul.custom-list > .li-datum::before {
   justify-content: space-between;
   align-items: center;
   height: 50px;
+}
+
+.card-body {
+  border-left: 1px solid #ffffff;
+}
+
+.li-span {
+  font-weight: 500;
 }
