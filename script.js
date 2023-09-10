@@ -3,5 +3,5 @@ document.querySelector('.aktualizovat').addEventListener('click', function () {
 
   setTimeout(function () {
     document.getElementById('popupNotification').style.display = 'none';
-  }, 4000);
+  }, 2000);
 });

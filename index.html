@@ -18,18 +18,15 @@
 <body>
   <header>
     <img src="img/logo.png" alt="Webmex logo" />
-    <img src="img/plus.png" alt="plus sign">
-    <img src="img/search.png" alt="search">
-    <form role="search" id="form">
-      <input type="search" id="query" name="q" placeholder="Search..." aria-label="Search through site content">
-      <button>
-        <svg viewBox="0 0 1024 1024">
-          <path class="path1"
-            d="M848.471 928l-263.059-263.059c-48.941 36.706-110.118 55.059-177.412 55.059-171.294 0-312-140.706-312-312s140.706-312 312-312c171.294 0 312 140.706 312 312 0 67.294-24.471 128.471-55.059 177.412l263.059 263.059-79.529 79.529zM189.623 408.078c0 121.364 97.091 218.455 218.455 218.455s218.455-97.091 218.455-218.455c0-121.364-103.159-218.455-218.455-218.455-121.364 0-218.455 97.091-218.455 218.455z">
-          </path>
-        </svg>
-      </button>
-    </form>
+    <img class="plus" src="img/plus.png" alt="plus sign">
+    <div class="search">
+      <img class="lupa" src="img/search.png" alt="search">
+      <form role="search" id="form">
+        <input type="search" id="query" name="q" placeholder="Hledat objednávky, produkty nebo zákazníky"
+          aria-label="Search through site content">
+      </form>
+    </div>
+    <img class="bell" src="img/bell.png" alt="zvon">
   </header>
 
   <main>
@@ -182,13 +179,16 @@
         <p>Celková práce na aktualizacích: 12 hodin</p>
         <button class="aktualizovat">Aktualizovat e-shop</button>
         <div id="popupNotification" class="popup">
-<img src="img/nastaveni.gif" alt="nastavení">
-  <p class="first"> Vyčkejte prosím, právě probíhá aktualizace Vašeho e-shopu.</p>
-  <p class="second">Odhadovaný čas dokončení: 23 sekund</p>
-</div>
+          <img src="img/nastaveni.gif" alt="nastavení">
+          <p class="first"> Vyčkejte prosím, právě probíhá aktualizace Vašeho e-shopu.</p>
+          <p class="second">Odhadovaný čas dokončení: 23 sekund</p>
+        </div>
       </div>
     </div>
   </main>
+  <footer>
+    <img src="img/logo.png" alt="">
+  </footer>
   <script src="script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
     integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -197,5 +197,4 @@
     integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
     crossorigin="anonymous"></script>
 </body>
-
 </html>
