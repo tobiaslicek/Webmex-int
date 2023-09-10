@@ -77,7 +77,11 @@ svg {
   margin-left: 10px;
 }
 
-ul {
+.close {
+  margin-left: 480px;
+}
+
+ul.custom-list {
   margin-left: -2.3rem;
   display: flex;
   justify-content: space-between;
@@ -98,7 +102,7 @@ ul.custom-list > .li-datum::before {
   font-size: 23px;
   line-height: 1;
 }
-li {
+li.custom-list {
   font-size: 16px;
   font-weight: 400;
 }
@@ -117,6 +121,10 @@ li {
 .card {
   margin: 12px 10px 10px;
   border: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
 }
 
 .card-header {
@@ -135,6 +143,18 @@ li {
 
 .card-body {
   border-left: 1px solid #ffffff;
+  margin: -16px 0;
+}
+
+.card-body__header {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.card-body li {
+  color: #000;
+  font-weight: 600;
+  line-height: 2;
 }
 
 .li-span {
