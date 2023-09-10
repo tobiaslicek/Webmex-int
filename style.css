@@ -10,6 +10,9 @@ body {
   margin-top: 2rem;
   background-color: #fff;
   max-width: 800px;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 header {
@@ -87,6 +90,15 @@ ul.custom-list > .li-datum::before {
   border: none;
 }
 
+.card {
+  margin: 12px 10px;
+}
+
 .card-header {
-  background-color: #f2f2f2;
+  border-radius: 8px 8px 0px 0px;
+  background: #f2f2f2;
+  padding: 8px 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
 }
