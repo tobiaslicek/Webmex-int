@@ -1,23 +1,21 @@
-
-
 body {
-  background-color: gray;
+  background: rgba(41, 41, 41, 0.6);
+  color: #000000;
+  height: 718px;
+  flex-shrink: 0;
+  font-family: 'Nunito', sans-serif;
 }
 
 .container {
   margin-top: 2rem;
-background-color: #fff;
+  background-color: #fff;
+  max-width: 800px;
 }
 
 header {
   display: flex;
   flex-direction: row;
-
 }
-
-
-
-
 
 form {
   width: 300px;
@@ -56,3 +54,39 @@ svg {
   height: 24px;
   padding: 10px;
 } */
+ul {
+  margin-left: -2.3rem;
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+}
+
+ul.custom-list > .li-datum {
+  list-style-type: none;
+  position: fixed;
+  padding-left: 16px;
+}
+
+ul.custom-list > .li-datum::before {
+  content: '\2022';
+  position: absolute;
+  left: 0;
+  color: #ffa800;
+  font-size: 24px;
+  line-height: 1;
+}
+
+.li-verze {
+  margin-left: 505px;
+  list-style: none;
+  border-bottom: none;
+}
+
+.btn.btn-link {
+  text-decoration: none;
+  border: none;
+}
+
+.card-header {
+  background-color: #f2f2f2;
+}
