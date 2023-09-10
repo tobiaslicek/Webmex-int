@@ -206,21 +206,20 @@ li.custom-list {
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 15px 30px;
+  padding: 15px 50px;
   background-color: #ffffff;
   border: 1px solid #ddd;
   border-radius: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   z-index: 1000;
   display: flex;
-
 }
 
 .popup img {
-  margin-left: 110px;
+  margin-left: 92px;
   width: 160px;
   margin-top: -15px;
-  margin-bottom: -30px;
+  margin-bottom: -20px;
   background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
 
@@ -229,10 +228,11 @@ li.custom-list {
   font-size: 16px;
   font-weight: 700;
   line-height: normal;
-  margin-bottom: -5px;
+  margin-bottom: 10px;
+  max-width: 40ch;
 }
 
 .second {
-  margin-bottom: 20px;
-  margin-left: 70px;
+  margin-bottom: 25px;
+  margin-left: 50px;
 }
